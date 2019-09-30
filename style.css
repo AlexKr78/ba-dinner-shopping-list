@@ -1,0 +1,98 @@
+body  {
+    margin: 0 0; /* Убираем отступы */
+    font-family: Trebuchet, Arial, sans-serif;
+    background: #3B3F45;
+}
+
+*{transition: all .1s ease-in;}
+
+header  {
+    color: #E57876;/* Цвет текста */
+    background: #4A4F56;/* Цвет фона */
+    text-align:center;/* Выравнивание по центру */
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0 0;
+    padding: 10px 0 10px;
+  }
+
+h1 + p {
+    margin: 0 0;
+    padding: 0 0 10px;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    /*height: 200px; /* Высота блока */
+    width: 800px; /* Ширина блока */
+}
+
+[class="panel"] {
+    
+}
+[class=list] {
+    padding: 0px;
+    list-style: none;
+}
+
+.list li:nth-child(2n+1){
+    color: #F1E5DA;/* Цвет текста */
+    background: #88839E;/* Цвет фона */
+    padding: 5px 5px 0;
+    
+}
+
+.list li:nth-child(2n){
+    color: #F1E5DA;/* Цвет текста */
+    background: #7A7593;/* Цвет фона */
+    padding: 5px 5px 0;
+}
+
+.list li:hover {
+    background: #625E77;
+    color: #F5EFEA;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    
+
+  }
+
+.list li:active {
+    
+    color: #F1E5DA;
+    background: #EA877A;
+    border-bottom: 2px solid #fff;
+    border-top: 2px solid #fff;
+    
+  }
+
+.list-item {
+    height: 30px;
+    
+}
+
+.list-item div input:checked~label{
+    
+    text-decoration: line-through;
+    
+  }
+/*input:checked + label {
+    text-decoration: line-through;
+}*/
+label {
+    /*display: block;*/
+    
+}
+button {
+    width: 800px;
+    padding: 10px;
+    border: 0px;
+    font-size: 16px;
+    color: #E57876;/* Цвет текста */
+    background: #4A4F56;/* Цвет фона */
+    margin: 0 auto;
+}
+
